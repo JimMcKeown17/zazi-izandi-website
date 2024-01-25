@@ -2257,4 +2257,9 @@ p.testimonials-text {
 		padding-right:15px!important;
 	}
 	
+	
+}
+
+#research-chart{
+	transform: translateY(50px);
 }
