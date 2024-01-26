@@ -980,6 +980,8 @@ ul.features-list-hero li i{
 				display: none;
 			}
 
+		
+
 	}
 
 	body.is-loading #banner:before {
@@ -2221,6 +2223,25 @@ p.testimonials-text {
 		float:none;
 		margin:0;
 	}
+
+	.sponsors-padding, #bullet-one-header{
+		display: none;
+	}
+
+	#research{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.research-title{
+		margin-top: 5px;
+		
+	}
+
+	#research-chart{
+		transform: translateY(0px) !important;
+		vertical-align: top;
+	}
 		
 	p.author-name{
 		float:none;
@@ -2278,3 +2299,7 @@ p.testimonials-text {
     filter: var(--zz-blue-filter);
 }
 
+.research-title{
+	margin-top: 10px;
+	
+}
