@@ -35,7 +35,9 @@ Version: 1.0
 
 :root {
     --zz-orange: #ffd641;
+	--zz-orange-filter: invert(81%) sepia(55%) saturate(538%) hue-rotate(348deg) brightness(97%) contrast(110%);
     --zz-blue: #28a1ff;
+	--zz-blue-filter: invert(64%) sepia(78%) saturate(4493%) hue-rotate(186deg) brightness(104%) contrast(101%);
     --zz-pink: #fe7e8d;
     --text-dark: #000;
     --text-light: #fff;
@@ -2263,3 +2265,16 @@ p.testimonials-text {
 #research-chart{
 	transform: translateY(50px);
 }
+
+.icon-small{
+	height: 50px;
+	margin-bottom: 15px;
+    filter: var(--zz-orange-filter);
+}
+
+.icon-small-blue {
+	height: 50px;
+	margin-bottom: 15px;
+    filter: var(--zz-blue-filter);
+}
+
