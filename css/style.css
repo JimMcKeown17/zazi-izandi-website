@@ -227,6 +227,14 @@ iframe{
 	width: 100%;
 }
 
+.width-75 {
+	width: 75%;
+}
+
+#research-photo {
+	width: 67%;
+}
+
 .medium {
 	font-weight: 400;
 }
