@@ -581,6 +581,13 @@ iframe{
   height: 8px;
   margin: 0 0 0 6px;
 }
+
+.carousel .team-item img {
+    max-height: 300px; /* Adjust this value as needed */
+    object-fit: cover;
+    width: 100%; /* Ensures the image takes the full width of the container */
+}
+
 /* end carousel */
 
 /* -----  Photos Hover Animations ----- */
